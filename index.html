@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<img src="img/banner.png" alt="">
+
+  <!-- partial:index.partial.html -->
+<div id="svg_wrap"></div>
+
+<section>
+  <p>Personal information</p>
+  <input type="text" id="personal" placeholder="First Name" />
+  <input type="text" id="personal" placeholder="Surname" />
+  <input type="number" id="personal" placeholder="Age" />
+  <input type="number" id="personal" placeholder="Weight" />
+</section>
+
+<section>
+  <p>Which best resembles your work place?</p>
+  <label class="layersMenu">
+    <input type="radio" id="radioZoom18" name="zoomsMBtiles" value="18" />
+    <img src="img/office.png">
+    <div>Office</div>
+  </label>
+  <label class="layersMenu">
+    <input type="radio" id="radioZoom18" name="zoomsMBtiles" value="18" />
+    <img src="img/construction.png">
+    <div>Construction</div>
+  </label>
+  <label class="layersMenu">
+    <input type="radio" id="radioZoom18" name="zoomsMBtiles" value="18" />
+    <img src="img/fitness.png">
+    <div>Leisure or Fitness</div>
+  </label>
+</section>
+
+<section>
+  <p>Contact information</p>
+  <input type="text" placeholder="Email address" />
+  <input type="text" placeholder="Phone" />
+  <input type="text" placeholder="Mobile" />
+</section>
+
+<section>
+  <p>Terms & Conditions</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</section>
+
+<div class="button" id="prev">&larr; Previous</div>
+<div class="button" id="next">Next &rarr;</div>
+<div class="button" id="submit">Agree and Submit</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
